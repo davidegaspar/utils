@@ -7,7 +7,7 @@ docker run -it --rm --name utils utils /bin/sh
 
 ## build
 ```
-docker build -t utils -f Dockerfile .
+docker build --target server -t utils -f Dockerfile .
 ```
 
 ## publish
